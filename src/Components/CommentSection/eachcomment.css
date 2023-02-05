@@ -1,0 +1,44 @@
+.eachcmtcont{
+    width: 80%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.maincont{
+    flex-grow: 4;
+}
+.cmtmessagetext{
+    display: flex;
+    align-items: flex-start;
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+    word-break: break-all;
+    white-space: normal;
+    /* background-color: aqua; */
+}
+.btn{
+    background-color: blue;
+    margin: 20px;
+    height: fit-content;
+    padding: 5px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.btn:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.delete{
+    background-color: red;
+}
+.edit{
+    background-color: aquamarine;
+}
